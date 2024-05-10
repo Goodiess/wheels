@@ -1,0 +1,21 @@
+{
+  "name": "Wheels",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.mjs",
+    "dev" : "nodemon server.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0"
+  }
+}
